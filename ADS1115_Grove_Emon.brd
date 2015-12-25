@@ -837,7 +837,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="34.671" y="6.604" size="0.889" layer="28" font="vector" ratio="11" rot="MR90"/>
 </element>
 <element name="J4" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="H4P-SMD-2.0" x="5.715" y="8.89" smashed="yes" rot="MR270">
-<attribute name="NAME" x="2.413" y="16.256" size="0.889" layer="26" font="vector" ratio="11" rot="MR180"/>
+<attribute name="NAME" x="1.778" y="1.651" size="0.889" layer="26" font="vector" ratio="11" rot="MR180"/>
 <attribute name="VALUE" x="3.302" y="10.795" size="0.889" layer="28" font="vector" ratio="11" rot="MR270"/>
 </element>
 </elements>
