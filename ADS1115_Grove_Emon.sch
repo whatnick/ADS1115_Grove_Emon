@@ -4711,6 +4711,16 @@ chip</description>
 <wire x1="124.46" y1="63.5" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 <label x="124.46" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<label x="33.02" y="54.61" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="3"/>
+<wire x1="40.64" y1="54.61" x2="33.02" y2="54.61" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="71.12" y="54.61" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J4" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="54.61" x2="71.12" y2="54.61" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ALERT" class="0">
 <segment>
@@ -4840,18 +4850,6 @@ chip</description>
 <pinref part="C2" gate="G$1" pin="P$1"/>
 <wire x1="45.72" y1="119.38" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 <junction x="45.72" y="119.38"/>
-</segment>
-</net>
-<net name="3V3" class="1">
-<segment>
-<label x="33.02" y="54.61" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="40.64" y1="54.61" x2="33.02" y2="54.61" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="71.12" y="54.61" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="J4" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="54.61" x2="71.12" y2="54.61" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
