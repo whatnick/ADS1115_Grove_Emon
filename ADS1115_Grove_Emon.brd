@@ -188,7 +188,7 @@
 <hole x="4.699" y="1.397" drill="1.27"/>
 <hole x="31.623" y="15.367" drill="1.27"/>
 <text x="36.068" y="8.636" size="1.016" layer="21" font="vector" ratio="20" rot="R270" align="center">@whatnick</text>
-<text x="35.052" y="2.921" size="1.016" layer="21" font="vector" ratio="20" rot="R90">25/12/2015 v2</text>
+<text x="35.052" y="2.921" size="1.016" layer="21" font="vector" ratio="20" rot="R90">17/01/2016 v3</text>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -1089,8 +1089,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="5.715" y1="7.9375" x2="5.715" y2="7.89" width="0.8128" layer="16"/>
 <via x="2.06375" y="8.41375" extent="1-16" drill="0.3302"/>
 <via x="24.60625" y="13.6525" extent="1-16" drill="0.3302"/>
-<wire x1="32.22625" y1="9.525" x2="32.258" y2="9.509" width="0" layer="19" extent="16-16"/>
-<wire x1="2.794" y1="11.518" x2="1.5875" y2="12.3825" width="0" layer="19" extent="1-1"/>
+<wire x1="32.385" y1="9.525" x2="32.258" y2="9.509" width="0.254" layer="16"/>
+<wire x1="32.385" y1="9.525" x2="32.22625" y2="9.525" width="0.254" layer="16"/>
+<wire x1="22.86" y1="13.6525" x2="24.60625" y2="13.6525" width="0.6096" layer="1"/>
+<wire x1="22.86" y1="13.335" x2="22.86" y2="13.6525" width="0.254" layer="1"/>
+<wire x1="22.86" y1="13.335" x2="22.694" y2="13.208" width="0.254" layer="1"/>
 </signal>
 <signal name="ALERT">
 <contactref element="U1" pad="2"/>
